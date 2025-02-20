@@ -166,7 +166,7 @@ function App() {
           {filterdata.length > 0 ? (
             filterdata.map((e) => (
               <div className="box">
-                <h3>{e.title}</h3>
+                <h3 className={e.status ? "Done" : "Not-Done"}> {e.title} </h3>
                 <p>{e.description}</p>
                 <div className="secondDown">
                   <div>

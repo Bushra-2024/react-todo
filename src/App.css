@@ -122,6 +122,9 @@ label{
   color: white;
   border: none;
 }
+.Done{
+  text-decoration: line-through;
+}
 .cancel{
   color: #2196F3;
   border: 2px solid #2196F3;
