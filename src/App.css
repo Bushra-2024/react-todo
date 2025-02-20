@@ -1,0 +1,172 @@
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1{
+  font-size: 44px;
+  color: #808080;
+}
+h2{
+  font-size: 54px;
+  font-family: sans-serif;
+}
+body{
+  max-width: 1400px;
+  margin: 20px auto;
+}
+.up{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 7%;
+}
+.secondUp{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+aside{
+  margin-left: 5%;
+  color: #808080;
+}
+aside div{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 18px 0;
+  font-size: 20px;
+}
+aside img{
+  width: 30px;
+}
+.main{
+  display: flex;
+  gap: 180px;
+}
+.hide{
+  margin-top: 130px;
+}
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.box{
+  width: 320px;
+  padding: 20px;
+  background: #FFF9DE;
+  border-radius: 10px;
+}
+.flex2{
+  display: flex;
+}
+.secondDown{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchStyle img{
+  width: 20px;
+}
+.searchStyle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid#808080;
+  padding: 7px 0;
+  border-radius: 5px;
+}
+.searchStyle input{
+  border: none;
+  outline: none;
+}
+select{
+  padding: 7px 3px;
+}
+.modal{
+  position: fixed;
+  top: 200px;
+  left: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border: 1px solid black;
+  width: 350px;
+}
+.modal input{
+  padding: 7px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(201, 200, 200);
+  margin-top: 5px;
+}
+label{
+  margin-top: 15px;
+}
+.modal div{
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.modal div button{
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.save{
+  background-color: #2196F3;
+  color: white;
+  border: none;
+}
+.save:hover{
+  background-color: #8ac2f0;
+  color: white;
+  border: none;
+}
+.cancel{
+  color: #2196F3;
+  border: 2px solid #2196F3;
+}
+.plus{
+  cursor: pointer;
+}
+@media (max-width:480px) {
+  h1{
+    font-size: 34px;
+  }
+  .up{
+    flex-direction: column;
+    gap: 0;
+  }
+  .secondUp{
+    flex-direction: row;
+    margin: 0px 5px;
+    gap: 5px;
+  }
+  aside{
+    display: none;
+  }
+  .main{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .box{
+    width: 300px;
+    padding: 20px;
+    background: #FFF9DE;
+    border-radius: 10px;
+  }
+  .modal{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    padding: 20px 40px;
+    width: 250px;
+  }
+}
